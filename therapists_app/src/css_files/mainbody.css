@@ -1,0 +1,104 @@
+#mainbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 10px springgreen solid; */
+    background: #f4f5ff;
+    padding-left: 10px;
+    height: max-content;
+
+}
+
+
+
+#user-area {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20%;
+
+}
+
+
+
+#user-area , #user-area > div {
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#user-area > div > span {
+    border-radius: 50%;
+    background: #ffff;
+    padding: 10px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#user-area > div {
+
+    align-items: center;
+
+    width: 100%;
+    gap: 20px;
+
+
+}
+
+#user-area > div > div {
+    flex-basis: 60%;
+    position: relative;
+
+}
+
+
+#user-area > div > div > span {
+
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#user-area input {
+    padding: 10px;
+    padding-left: 30px;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#user-area > div > i {
+    background: #8067ef;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+
+
+#user-area > div > img {
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+}
+
+@media all and (max-width:900px) {
+    #therapynbooking {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+}
+
+@media all and (min-width:900px) {
+    #therapynbooking {
+        display: flex;
+        
+    
+    }
+}
+

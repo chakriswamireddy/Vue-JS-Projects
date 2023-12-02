@@ -1,0 +1,88 @@
+#footer {
+    background: #e5e7ff;
+    width: 100%;
+    height: 24%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+#footer > div:first-child {
+    display: flex;
+    height: 80%;
+    width: 90%;
+
+    /* justify-content: space-evenly; */
+    justify-content:space-around;
+
+    height: 90%;
+    padding-top: 20px;
+
+}
+
+#footer > div:first-child > div:first-child {
+    background: #000;
+    height: max-content;
+    border-radius: 50%;
+    background: #f4f5ff;
+}
+
+#footer img {
+    border-radius: 50%;
+    height: 100px;
+    padding: 10px 20px;
+    padding-top: 20px;
+}
+
+#footer ul > li:first-child {
+    font-weight: 700;
+    padding-bottom: 10px;
+    color: black;
+}
+
+#footer > div > ul > li {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#footer > div > ul:last-child > li{
+    margin-bottom: 10px;
+}
+
+#footer > p {
+    text-align: center;
+}
+
+ul > li > i {
+    /* background: #000; */
+    border-radius: 10px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+}
+
+ul > li:nth-child(2) > i {
+    background: rgb(62, 85, 236);
+    color: white;
+    padding: 4px;
+}
+
+ul > li:nth-child(3) > i {
+    background: rgb(37, 64, 243);
+    color: white;
+    padding: 4px;
+    font-size: 13px;
+}
+
+ul > li:nth-child(4) > i {
+    background: rgb(100, 142, 215);
+    color: white;
+    padding: 4px;
+}
+
+ul > li:nth-child(5) > i {
+    background: rgb(247,229,46);
+    background: linear-gradient(146deg, rgba(247,229,46,0.9940768543745623) 0%, rgba(223,140,114,1) 30%, rgba(164,13,173,1) 71%, rgba(173,13,123,1) 88%);
+    color: white;
+    padding: 4px;
+}
